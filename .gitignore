@@ -1,0 +1,61 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.dbmdl
+*.pdb
+*.cache
+*.log
+
+# ASP.NET Core secrets
+secrets.json
+
+# Build results
+out/
+publish/
+
+# NPM / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment files
+# .env
+# .env.*.local
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# IDEs
+.vscode/
+.idea/
+*.sw?
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Coverage results
+coverage/
+*.lcov
+*.nyc_output/
+
+# Build directories
+dist/
+build/
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Others
+*.bak
+*.tmp
